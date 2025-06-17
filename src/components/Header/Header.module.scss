@@ -1,0 +1,19 @@
+.header {
+  position : relative;
+  width: 100%;
+}
+
+.clock {
+  position: absolute;
+  left: 5%;
+  display: inline-block;
+  transform: scale(1);
+  transform-origin: center;
+
+  @media screen {
+    @media (max-width: 768px) {
+      transform: scale(0.5);
+      transform-origin: left;
+    }
+  }
+}

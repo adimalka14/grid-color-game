@@ -1,0 +1,15 @@
+.cell {
+    box-sizing: border-box;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    border: 1px solid var(--color-primary-variant);
+    border-radius: 5px;
+    transition: background-color 0.2s ease, color 0.2s ease;
+    cursor: pointer;
+
+    &:hover {
+        border: 1px solid var(--color-on-primary);
+        box-shadow: 0 0 3px 3px var(--color-on-primary);
+        transform: scale(1.05);
+    }
+}

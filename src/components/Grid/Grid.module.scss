@@ -1,0 +1,21 @@
+.grid {
+  box-sizing: border-box;
+  display: grid;
+  gap: 0.5em;
+
+  background: var(--color-primary);
+  border: 5px solid var(--color-primary-variant);
+  border-radius: 15px;
+  padding: 1em;
+  transition: transform 0.3s ease, grid-template-columns 0.3s ease, grid-template-rows 0.3s ease;
+
+  &:hover {
+    box-shadow: 0 0 6px 6px var(--color-on-primary);
+  }
+
+  @media screen {
+    @media (max-width: 768px) {
+      gap: 0.3em;
+    }
+  }
+}

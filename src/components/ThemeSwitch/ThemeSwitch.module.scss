@@ -1,0 +1,16 @@
+.themeToggle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: var(--color-on-primary);
+  transition: color 0.3s ease;
+  border: 2px solid var(--color-on-primary);
+  border-radius: 50%;
+
+  position: absolute;
+  right: 1em;
+  top: 1em;
+}

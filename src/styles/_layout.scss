@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  height: 100vh;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+  max-width: 100%;
+  margin: 0;
+  gap: 2em;
+  background: var(--color-background);
+}
+
+h1 {
+  @media screen {
+    @media (max-width: 768px) {
+      font-size: 1em;
+    }
+  }
+}
